@@ -60,7 +60,7 @@ class Flor:
         }
         return analisis
 
-datos = cargar_datos("Projects/iris.data.csv")
+datos = cargar_datos("Iris-Project-Python/iris.data.csv")
 Flores = agrupar_por_especie(datos)
 
 Iris_setosa = Flor(Flores['Iris-setosa']['longitud_sepalo'],
